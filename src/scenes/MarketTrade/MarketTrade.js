@@ -1,11 +1,18 @@
-import { PureComponent } from "react";
+import React, { Component } from "react";
 
-export default class MarketTrade extends PureComponent{
+class MarketTrade extends Component{
 
     render(){
         return (
-            <div>Ciao Maxx</div>
-        )
+          <div>
+            <div>This Is My From</div>
+
+            <div>
+
+            </div>
+          </div>
+        );
     }
 }
 
+export default MarketTrade;

@@ -1,5 +1,5 @@
-const { Component } = require("react");
-const { default: MarketTrade } = require("./MarketTrade");
+import React, { Component } from "react";
+import MarketTrade from './MarketTrade';
 
 class MarketTradeContainer extends Component{
 
@@ -7,3 +7,5 @@ class MarketTradeContainer extends Component{
         return <MarketTrade></MarketTrade>
     }
 }
+
+export default MarketTradeContainer;
